@@ -13,7 +13,7 @@ var toDoSchema = schema({
 	created_on : {
 		type : Date,
 		default : Date.now()
-	}
+	},
 
 	finished_by : {
 		type : Date
