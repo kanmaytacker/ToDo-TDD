@@ -4,7 +4,7 @@
   "description": "A ToDo API created using Test Driven Develpoment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,11 @@
     "method-override": "^2.3.6",
     "mongoose": "^4.5.8",
     "morgan": "^1.7.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.1",
+    "sinon": "^1.17.5",
+    "sinon-mongoose": "^1.2.1"
   }
 }
